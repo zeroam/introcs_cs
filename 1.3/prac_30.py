@@ -81,5 +81,4 @@ bins = np.arange(-lim, lim + binwidth, binwidth)
 ax_histx.hist(x, bins=bins)
 ax_histy.hist(y, bins=bins, orientation='horizontal')
 
-
 fig.savefig("prac_30.png")

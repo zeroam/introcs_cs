@@ -53,7 +53,7 @@ def animate(i):
 
 
 anim = animation.FuncAnimation(
-    fig, animate, frames=len(x_points), init_func=init, interval=200
+    fig, animate, frames=len(x_points), init_func=init, interval=100
 )
 anim.save("adv_35.gif", writer="imagemagick")
 # plt.show()
